@@ -39,7 +39,7 @@ def analisador_sentimentos(produto):
         Pontos fracos: lista com três bullets
     """
 
-    prompt_usuario = carrega(f"analises_openai/dados/avaliacoes-{produto}.txt")
+    prompt_usuario = carrega(f"./dados/avaliacoes-{produto}.txt")
     print(f"Iniciou a análise de sentimentos do produto {produto}")
 
     lista_mensagens = [
@@ -60,7 +60,7 @@ def analisador_sentimentos(produto):
             )
     
         texto_resposta = resposta.choices[0].message.content
-        salva(f"analises_openai/dados/analise-{produto}.txt", texto_resposta)
+        salva(f"./dados/analise-{produto}.txt", texto_resposta)
     except openai.AuthenticationError as e:
         print(f"Erro de Autenticação: {e}")
     except openai.APIError as e:

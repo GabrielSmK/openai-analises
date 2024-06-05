@@ -1,8 +1,11 @@
 Recomendação:
 
-Considerando que a transação foi realizada com um valor alto, numa localização e horário que levanta suspeitas de atividades fraudulentas, e já identificada pelo sistema como "Possível Fraude", a recomendação é "Acionar setor Anti-Fraude".
+Considerando o status "Possível Fraude" para a transação ID: "9c" e o parecer fornecido que indica "Identificado como 'Possível Fraude' baseado nos algoritmos de verificação de transações do sistema - poderia ser devido a incoerências nos padrões de compras, compras excessivas de alto valor ou atividades suspeitas de localização.", sugiro as seguintes ações:
 
-Esta ação será necessária para uma investigação mais detalhada sobre a atividade da conta, incluindo a análise dos históricos de transações e padrões comportamentais do cliente. Além disso, este tipo de situação exigirá um conjunto de habilidades e experiências especializadas para identificar se há ou não fraude envolvida e a melhor maneira de resolvê-la.
+1. Acionar o setor Anti-Fraude: Encaminhar a situação à equipe de Anti-Fraude para investigação adicional. Eles terão as ferramentas e a experiência necessárias para averiguar a veracidade da transação, utilizando várias técnicas e informações de correspondência.
 
-Possível Classificação de Fraude: 
-A transação pode ser classificada como "Fraude de Cartão de Crédito", uma vez que o tipo de transação é de crédito, e as características da transação - incluindo números, horário e localização - parecem inusitadas. Isso é geralmente indicativo de algum tipo de fraude de cartão.
+2. Realizar Verificação Manual: A Verificação Manual deve ser realizada de forma concomitante à atuação do setor Anti-Fraude. A equipe de auditoria deverá realizar um monitoramento minucioso de todas as transações associadas a esse cliente. 
+
+3. Notificar o Cliente: É essencial informar o cliente sobre esta situação. Se a transação for legítima, eles poderão confirmar rapidamente e tomar medidas para garantir que futuras transações não sejam sinalizadas. Se for um caso de fraude, o cliente poderá tomar medidas para proteger suas informações.
+
+Classificação do tipo de fraude: Caso confirmado, esta pode ser considerada uma fraude de comportamento anormal ou transacional, devido às incoerências nos padrões de compras e atividades suspeitas de localização. Além disso, devido ao alto valor, se confirmada a fraude, pode ser classificada como fraude de grande valor.

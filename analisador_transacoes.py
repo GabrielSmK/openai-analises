@@ -142,7 +142,7 @@ def gerar_recomendacao(parecer):
     print("Finalizou a geração de recomendação")
     return conteudo
 
-lista_de_transacoes = carrega("analises_openai/transacoes.csv")
+lista_de_transacoes = carrega("transacoes.csv")
 transacoes_analisadas = analisar_transacao(lista_de_transacoes)
 
 for uma_transacao in transacoes_analisadas["transacoes"]:
